@@ -1,2 +1,3 @@
-# learn-square-names
-Learn the names of the squares of the chessboard by clicking on them
+Test it [here](https://heronils.github.io/learn-square-names/).
+
+(This small app was requested by user NavneetRaj on Lichess)
