@@ -1,0 +1,37 @@
+body {
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#board {
+    background-image:url(board.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width:calc(100vh - 11em);
+    height:calc(100vh - 11em);
+    max-width:98vmin;
+    max-height:98vmin;
+    display:inline-block;
+}
+
+#clickinfo {
+    position:absolute;
+    line-height:1.5em;
+    color:white;
+    vertical-align:middle;
+    text-align:middle;
+    opacity:0;
+    transition: opacity .8s;
+    text-shadow: 0px 0px 1px rgba(0,0,0,1);
+}
+
+#clickinfo.active {
+    opacity:1;
+    transition: opacity 0s;
+}
+
+.credits {
+    font-style:italic;
+    font-size:0.8em;
+}
