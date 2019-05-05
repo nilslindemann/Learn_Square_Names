@@ -16,7 +16,11 @@ window.onload = function() {
 
         let size_with_border = rectangle.right - rectangle.left;
 
-        border_size = size_with_border / 12.8; // found by trial and error
+        // this was used for the v1 empty board
+        //~ border_size = size_with_border / 12.8; // found by trial and error
+
+        border_size = 0;
+
         size = size_with_border - (2 * border_size);
         square_size = size / 8;
 

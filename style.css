@@ -4,7 +4,7 @@ body {
 }
 
 #board {
-    background-image:url(board.jpg);
+    background-image:url(board.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
